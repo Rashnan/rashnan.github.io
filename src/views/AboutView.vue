@@ -216,7 +216,7 @@ const loadedTimelineItems = ref<number>(4);
             </v-card-text>
 
             <template v-slot:actions v-if="item.link">
-              <v-btn :href="item.link" target="_blank" icon="mdi-open-in-new" color="white" class="ms-auto me-2" size="16px"></v-btn>
+              <v-btn :href="item.link" target="_blank" icon="mdi-open-in-new" class="ms-auto me-2" size="16px"></v-btn>
             </template>
           </v-card>
         </v-timeline-item>
