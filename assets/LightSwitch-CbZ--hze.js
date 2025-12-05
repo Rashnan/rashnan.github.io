@@ -1,0 +1,1 @@
+import{_ as e,a as t,b as n,h as r,n as i,p as a,s as o}from"./index-BqYi0Acj.js";var s=a({__name:`LightSwitch`,setup(a){let s=i(),c=t(()=>s.global.current.value.dark);return(t,i)=>{let a=e(`v-btn`);return r(),o(a,{icon:c.value?`mdi-white-balance-sunny`:`mdi-weather-night`,flat:``,onClick:i[0]||=e=>n(s).toggle()},null,8,[`icon`])}}});export{s as t};
